@@ -1,0 +1,28 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Restaurants{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1> Restaurants </h1>
+        <p> Some of the great places to eat in Austin, Texas <p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="row">
+      {% for restaurant in eateries.restaurants %}
+        <div class="col-md-4 offset-2">
+          <img src="{{ restaurant.image }}" alt="{{ restaurant.name }}" class="img-fluid">
+        </div>
+        <div class="col-md-4">
+          <p>{{ restaurant.name }}</p>
+          <p>{{ restaurant.address }}</p>
+          <p>{{ restaurant.category }}</p>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

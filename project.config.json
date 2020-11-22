@@ -9,6 +9,16 @@
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
       "type": "sheet",
       "name": "bookstores"
+    },
+    {
+      "fileId": "1kTmMEM4FYAzazg1ikIWpHT5D1CNUZyHk13inrsMcKd8",
+      "type": "sheet",
+      "name": "gallery"
+    },
+    {
+      "fileId": "1ACajaRQrUbJABI9vS4E3Ejnqr-nEiRtxiz9foyi6MFg",
+      "type": "doc",
+      "name": "eateries"
     }
   ],
   "to_bake": [
@@ -18,6 +28,13 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+    {
+      "template": "bake-landmark",
+      "data": "gallery",
+      "array": "landmarks",
+      "slug": "slug",
+      "path": "landmarks"
     }
   ]
 }
