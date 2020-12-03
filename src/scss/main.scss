@@ -20,7 +20,34 @@
 
 // Import partials
 @import "nav";
+@import "fonts";
 
-h3 {
-  font-size: 1.5rem;
+.jumbotron {
+  background-image: url(../img/pirate-ship.jpg);
+}
+.carousel-inner {
+  border-style: solid;
+  border-color: #CC5500;
+  border-width: 10px;
+}
+
+.navbar {
+  background-color: #CC5500;
+}
+
+.restaurantInfo {
+  border-top: 5px solid black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding: 70px 0;
+}
+
+.restaurantImage {
+  border-top: 5px solid black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+body {
+  background-color: #a9a9a9;
 }

@@ -1,3 +1,7 @@
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Castoro&display=swap" rel="stylesheet">
+</head>
 {% extends '_templates/base.njk' %}
 
 {% block page_title %}Restaurants{% endblock %}
@@ -13,11 +17,11 @@
     <div class="column">
       <div class="row">
       {% for restaurant in eateries.restaurants %}
-        <div class="col-md-4 offset-2">
-          <img src="{{ restaurant.image }}" alt="{{ restaurant.name }}" class="img-fluid">
+        <div class="restaurantImage col-md-4 offset-2">
+          <img src="img/{{ restaurant.image }}" alt="{{ restaurant.name }}" class="img-fluid">
         </div>
-        <div class="col-md-4">
-          <p>{{ restaurant.name }}</p>
+        <div class="restaurantInfo col-md-4">
+          <p id="restaurantName">{{ restaurant.name }}</p>
           <p>{{ restaurant.address }}</p>
           <p>{{ restaurant.category }}</p>
         </div>

@@ -8,9 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Castoro&display=swap" rel="stylesheet">
+</head>
+<nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="index.html">Austin Tourism</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -22,6 +28,14 @@
           Landmarks
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+          <a class="dropdown-item" href="landmarks/university-of-texas.html">The University of Texas</a>
+          
+          <a class="dropdown-item" href="landmarks/texas-state-capitol.html">The Texas State Capitol</a>
+          
+          <a class="dropdown-item" href="landmarks/lady-bird-lake.html">Lady Bird Lake</a>
+          
+          <a class="dropdown-item" href="landmarks/mount-bonnell.html">Mount Bonnell</a>
           
           <a class="dropdown-item" href="landmarks.html">All Landmarks</a>
         </div>
@@ -36,7 +50,7 @@
   </div>
 </nav>
 
-    <div class="jumbotron banner text-center">
+    <div class="jumbotron text-center">
   <h1>Austin Texas Tourism</h1>
   <p>A site where you can find some of the best spots for tourists in Austin</p>
 </div>
@@ -51,39 +65,52 @@
       <p> This website is for your viewing pleasure and was created to help people who may be new or exploring the Austin area and want to know some of the spots to go. We know that people come in and out of Austin all the time and miss some of the great spots so we created this so that people can get to enjoy Austin in its entirety while they're here.</p>
     </div>
   </div>
-  <div class="col-sm-12 col-md-10 offset-md-1">
+  <div class="col-sm-8 col-md-6 offset-md-3">
     <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselCaptions" data-slide-to="2"></li>
-      <li data-target="#carouselCaptions" data-slide-to="3"></li>
-    </ol>
+      <ol class="carousel-indicators">
+        <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselCaptions" data-slide-to="3"></li>
+      </ol>
     <div class="carousel-inner">
+        
       <div class="carousel-item active">
-          <img src="../img/univ-of-tx.jpg" class="d-block w-100" alt="The University of Texas">
+        <a href="landmarks/university-of-texas.html">
+          <img src="img/univ-of-tx.jpg" class="img-fluid" alt="The University of Texas">
+        </a>
         <div class="carousel-caption d-none d-md-block">
           <h5>The University of Texas</h5>
         </div>
       </div>
-      <div class="carousel-item">
-          <img src="../img/texas-state-capitol.jpg" class="d-block w-100" alt="Texas State Capitol">
+        
+      <div class="carousel-item ">
+        <a href="landmarks/texas-state-capitol.html">
+          <img src="img/texas-state-capitol.jpg" class="img-fluid" alt="The Texas State Capitol">
+        </a>
         <div class="carousel-caption d-none d-md-block">
-          <h5>Texas State Capitol</h5>
+          <h5>The Texas State Capitol</h5>
         </div>
       </div>
-      <div class="carousel-item">
-          <img src="../img/lady-bird-lake.jpg" class="d-block w-100" alt="Lady Bird Lake">
+        
+      <div class="carousel-item ">
+        <a href="landmarks/lady-bird-lake.html">
+          <img src="img/lady-bird-lake.jpg" class="img-fluid" alt="Lady Bird Lake">
+        </a>
         <div class="carousel-caption d-none d-md-block">
           <h5>Lady Bird Lake</h5>
         </div>
       </div>
-      <div class="carousel-item">
-          <img src="../img/mount-bonnell.jpg" class="d-block w-100" alt="Mount Bonnell">
+        
+      <div class="carousel-item ">
+        <a href="landmarks/mount-bonnell.html">
+          <img src="img/mount-bonnell.jpg" class="img-fluid" alt="Mount Bonnell">
+        </a>
         <div class="carousel-caption d-none d-md-block">
           <h5>Mount Bonnell</h5>
         </div>
       </div>
+        
     </div>
       <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -101,7 +128,7 @@
     <footer>
 <p id="legal" class="center-block text-center">
   <small>&copy; <span class="copyright-year"></span>
-  A class project by First Last.
+  A class project by Aaron Williams.
 </p>
 </footer>
 
