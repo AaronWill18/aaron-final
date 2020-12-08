@@ -19,11 +19,12 @@
 // @import "../../node_modules/bootstrap/scss/mixins"; 
 
 // Import partials
-@import "nav";
+
 @import "fonts";
+@import "restaurant";
 
 .jumbotron {
-  background-image: url(../img/pirate-ship.jpg);
+  background-color: lightskyblue;
 }
 .carousel-inner {
   border-style: solid;
@@ -33,19 +34,6 @@
 
 .navbar {
   background-color: #CC5500;
-}
-
-.restaurantInfo {
-  border-top: 5px solid black;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding: 70px 0;
-}
-
-.restaurantImage {
-  border-top: 5px solid black;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 body {
